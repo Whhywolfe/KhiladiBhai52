@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KHILADI BHAI 52 – Dream11 Landing</title>
+  <meta name="description" content="KHILADI BHAI 52 – Premium Dream11 teams, fast updates, trusted guidance. Join our Telegram and get winning combinations." />
+  <meta name="theme-color" content="#0b0f1a" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet">
+
+  <style>
+    * {margin:0; padding:0; box-sizing:border-box;}
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    /* Background video */
+    #bg-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -2;
+    }
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.7);
+      z-index: -1;
+    }
+    /* Logo */
+    .logo {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid gold;
+      box-shadow: 0 0 25px gold;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      color: gold;
+      text-shadow: 0 0 15px rgba(255,215,0,0.8);
+      margin-bottom: 10px;
+    }
+    .description {
+      max-width: 340px;
+      background: rgba(255, 215, 0, 0.08);
+      border: 1px solid gold;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 1rem;
+      margin-bottom: 15px;
+      line-height: 1.4;
+    }
+    .countdown {
+      font-size: 1.5rem;
+      margin: 15px 0;
+      background: rgba(255, 215, 0, 0.1);
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: 1px solid gold;
+    }
+    .btn {
+      display: inline-block;
+      background: gold;
+      color: #000;
+      padding: 12px 30px;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 1.2rem;
+      box-shadow: 0 0 20px gold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #ffcc00;
+      transform: scale(1.05);
+      box-shadow: 0 0 30px gold;
+    }
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background video -->
+  <video autoplay muted loop playsinline id="bg-video">
+    <source src="https://raw.githubusercontent.com/Whhywolfe/KhiladiBhai52/main/VID-20250815-WA0003.mp4" type="video/mp4">
+  </video>
+  <div class="overlay"></div>
+
+  <!-- Logo -->
+  <img src="https://i.postimg.cc/TKN8Km6H/1755228294373.jpg" alt="KHILADI BHAI 52 Logo" class="logo">
+
+  <!-- Title -->
+  <h1>KHILADI BHAI 52</h1>
+
+  <!-- Description -->
+  <div class="description">
+    DREAM11 TEAM AVAILABLE<br>
+    GL + MEGA CONTEST 1 SE 5 RANK TAK CONFIRM WINNING TEAM
+  </div>
+
+  <!-- Countdown -->
+  <div class="countdown" id="countdown">00:30</div>
+
+  <!-- Join button -->
+  <a href="https://t.me/+FmWV6VR-0Zk3MWNl" target="_blank" class="btn">Join Now</a>
+
+  <footer>© 2025 KHILADI BHAI 52 – All Rights Reserved</footer>
+
+  <script>
+    // Countdown timer (30 seconds auto redirect)
+    function startCountdown(duration, redirectUrl) {
+      let timer = duration, minutes, seconds;
+      setInterval(() => {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+        document.getElementById('countdown').textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+          window.location.href = redirectUrl;
+        }
+      }, 1000);
+    }
+    
+    startCountdown(30, "https://t.me/+FmWV6VR-0Zk3MWNl");
+  </script>
+
+</body>
+</html>
